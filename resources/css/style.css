@@ -1,0 +1,18 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: '', sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
